@@ -1,12 +1,14 @@
 console.log(`hello`);
 
-
+const formEl = document.getElementById(`form`)
+const btnEl = document.getElementById(`btn`)
 const listEl = document.getElementById(`list`)
 
-const api = `https://flynn.boolean.careers/exercises/api/random/mail`
+ const api = `https://flynn.boolean.careers/exercises/api/random/mail` 
 
 
-
+function loadEMail (){ 
+    liEl = " "
 for (let i = 0; i <= 10; i++) {
     const liEl = document.createElement(`li`)
     fetch(api)
@@ -17,3 +19,13 @@ for (let i = 0; i <= 10; i++) {
         })
 
 }
+ }
+
+
+loadEMail()
+
+
+formEl.addEventListener(`click`, (e)=>{
+    loadEMail()
+})
+
