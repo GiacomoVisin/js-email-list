@@ -6,30 +6,33 @@
 
 
 body {
-    background: linear-gradient(to left, grey,black)
+    background: linear-gradient(to left, grey, black)
 }
 
 .container {
     width: 80%;
     position: relative;
     top: 4rem;
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 5%;
 }
 
 ol {
     position: relative;
     width: 80%;
+    border: 1px solid white;
     margin-left: 2rem;
     margin-top: 1rem;
     color: white;
-    background: linear-gradient(to left,black,grey );
+    background: linear-gradient(to left, black, grey);
+
     li {
         border: 1px solid black;
         padding: 5px;
     }
 }
 
-button{
+button {
     position: relative;
     left: 50%;
     width: 200px;
