@@ -1,7 +1,6 @@
 console.log(`hello`);
 
 const formEl = document.getElementById(`form`)
-const btnEl = document.getElementById(`btn`)
 const listEl = document.getElementById(`list`)
 
  const api = `https://flynn.boolean.careers/exercises/api/random/mail` 
@@ -9,7 +8,7 @@ const listEl = document.getElementById(`list`)
 
 function loadEMail (){ 
     liEl = " "
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i < 10; i++) {
     const liEl = document.createElement(`li`)
     fetch(api)
         .then(response => response.json())
