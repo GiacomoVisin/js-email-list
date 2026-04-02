@@ -7,7 +7,7 @@ const listEl = document.getElementById(`list`)
 
 
 function loadEMail (){ 
-    liEl = " "
+  
 for (let i = 0; i < 10; i++) {
     const liEl = document.createElement(`li`)
     fetch(api)
