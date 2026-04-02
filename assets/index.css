@@ -6,7 +6,9 @@
 
 
 body {
-    background: linear-gradient(to left, grey, black)
+    background: linear-gradient(to left, grey, black);
+    font-family: sans-serif,r;
+    
 }
 
 .container {
